@@ -1,4 +1,4 @@
-# Project Title [ Min-MERN-Portfolio ]
+# Project Title [ Min-REACT-Portfolio ]
 
 
 ## Table of Contents
