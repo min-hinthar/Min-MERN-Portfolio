@@ -1,0 +1,58 @@
+.home-page {
+    background: linear-gradient(217deg, #056961d3, rgba(255, 0, 0, 0) 35%),
+            linear-gradient(127deg, #4f0606, rgba(0,255,0,0) 0%),
+            linear-gradient(336deg, #7b054ebd, rgba(0,0,255,0) 50%);
+
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: #FFFFF0;
+        font-size: 53px;
+        margin: 0;
+        font-weight: 500;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1s;
+
+        &::before {
+            content: '<h1>';
+            font-family:'Courier New', Courier, monospace;
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: 0.8;
+            animation: fadeIn 3s 3s backwards;
+        }
+
+        &::after {
+            content: '<h1/>';
+            font-family: 'Courier New', Courier, monospace;
+            color:#ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            opacity: 0.8;
+            animation: fadeIn 3s 3s backwards;
+        }
+
+    }
+
+    // h3 {
+    //     color: 
+    // }
+
+    .coverPhoto {
+        max-width: 100%;
+        height: auto;
+        animation: fadeIn 3s 5s backwards;
+    }
+}
