@@ -10,6 +10,18 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+        // Responsive for mobile viewport
+        @media only screen and (
+            max-width: 900px
+            )
+            {
+            transform: translateY(-50%);
+            top: 50%;
+            left: 20%;
+            container-type: inline-size;
+            max-height: max-content;
+            max-width: 556px;
+        }
     }
 
     // Mingalar-Par in Burmese 
