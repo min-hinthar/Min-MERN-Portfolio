@@ -86,6 +86,12 @@
         border-style: dashed;
         border-radius: 1rem;
         padding: 1rem;
+
+        &:hover {
+            background: #85041159;
+            transform: scale(1.2);
+            transition: all 5s ease-out;
+        }
     }
     // copyrighted photo of Sule Protest
     .coverP {
@@ -93,6 +99,12 @@
         max-width: 100%;
         height: auto;
         animation: fadeIn 7s 9s backwards;
+
+        &:hover {
+            background: #85041159;
+            transform: scale(1.25);
+            transition: all 5s ease-out;
+        }
     }
 
     .flat-button {
