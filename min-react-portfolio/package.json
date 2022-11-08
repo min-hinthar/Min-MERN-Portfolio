@@ -1,6 +1,7 @@
 {
   "name": "min-react-portfolio",
   "version": "0.1.0",
+  "homepage": "https://min-hinthar.github.io/Min-REACT-Portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.9.0",
@@ -29,7 +30,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "nodemon --exec babel-node src/app.js"
+    "dev": "nodemon --exec babel-node src/app.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +57,7 @@
     "@babel/core": "^7.20.2",
     "@babel/node": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
+    "gh-pages": "^4.0.0",
     "nodemon": "^2.0.20"
   }
 }
