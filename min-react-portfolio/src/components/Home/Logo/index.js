@@ -17,9 +17,9 @@ const Logo = () => {
         gsap
         .timeline()
         .to(bgRef.current, {
-            duration: 10,
-            opacity: 1,
-            delay: 3,
+            duration: 20,
+            opacity: 0.9,
+            delay: 8,
         })
         .from(outlineLogoRef.current, {
             drawSVG: 0,
@@ -30,8 +30,8 @@ const Logo = () => {
             solidLogoRef.current, {
                 opacity: 0, 
             }, {
-                opacity: 0.5,
-                duration: 10,
+                opacity: 0.03,
+                duration: 8,
                 delay: 6,
             }
         )

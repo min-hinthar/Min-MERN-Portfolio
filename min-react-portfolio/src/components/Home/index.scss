@@ -12,25 +12,24 @@
         max-height: 90%;
         // Responsive for mobile viewport
         @media only screen and (
-            max-width: 900px
-            )
+            max-width: 900px) 
             {
-            transform: translateY(-50%);
-            top: 50%;
-            left: 20%;
-            container-type: inline-size;
-            max-height: max-content;
-            max-width: 556px;
-        }
+                transform: translateY(-50%);
+                top: 50%;
+                left: 20%;
+                container-type: inline-size;
+                max-height: max-content;
+                max-width: 556px;
+            }
     }
 
     // Mingalar-Par in Burmese 
     h1 {
         color: #FFFFF0;
-        font-size: 53px;
+        font-size: 4rem;
         margin: 0;
         font-weight: 500;
-        animation: rotateIn 3s 1s linear both;
+        animation: rotateIn 5s 1s linear both;
         animation-delay: 0s;
 
         &::before {
@@ -39,10 +38,11 @@
             color: #ffd700;
             font-size: 18px;
             position: absolute;
-            margin-top: -40px;
+            margin-top: -30px;
             left: 15px;
             opacity: 0.8;
-            animation: fadeIn 2s 3s backwards;
+            animation-delay: 5s;
+            animation: fadeIn 3s 5s backwards;
         }
 
         &::after {
@@ -54,18 +54,21 @@
             margin-top: 18px;
             margin-left: 20px;
             opacity: 0.8;
-            animation: fadeIn 2s 4s backwards;
+            animation-delay: 5s;
+            animation: fadeIn 3s 6s backwards;
         }
 
     }
 
     h2 {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2.3rem;
         font-weight: 800;
         letter-spacing: 10px;
         padding: 1px 10px;
         text-decoration: none;
         color: rgb(155, 197, 17);
+        animation-delay: 4s;
     }
 
 
@@ -77,7 +80,8 @@
     h3 {
         color: #fffff0cb;
         margin-top: 20px;
-        font-weight: 550;
+        font-size: 1.5rem;
+        font-weight: 600;
         font-family: 'Courier New', Courier, monospace;
         letter-spacing: 0.5px;
         animation: fadeIn 6s 7s backwards;
@@ -87,7 +91,7 @@
         padding: 1rem;
 
         &:hover {
-            background: #85041159;
+            background: #850411bb;
             transform: scale(1.2);
             transition: all 5s ease-out;
         }
