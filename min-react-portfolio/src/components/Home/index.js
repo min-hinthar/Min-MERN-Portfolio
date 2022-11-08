@@ -3,11 +3,11 @@ import './index.scss';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
+import Logo from '../Home/Logo/index'
 
 
 const Home = () => {
     const [ letterClass, setLetterClass] = useState('text-animate')
-    // const nameArray = ['🌅','မ','င်္ဂ','လ','ာ','ပ','ါ','🧋',]
     const welcomeArray = ['😎','W','e','l','c','o','m','e','_','t','o','_','m','y','_','🏘️','_','o','n','_','t','h','e','🌐',]
 
     useEffect(() => {
@@ -37,6 +37,7 @@ const Home = () => {
                     <Link to="/contact" className='flat-button'>📧 CONTACT ME 🤙 </Link>
                 </div>
             </div>
+                <Logo/>
         </main>
 
     );
