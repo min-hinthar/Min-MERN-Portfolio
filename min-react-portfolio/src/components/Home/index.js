@@ -20,7 +20,7 @@ const Home = () => {
         <main>
             <div className="container home-page">
                 <div className="text-zone">
-                    <h1>
+                    <h1 className='animate-character'>
                         🌅 မင်္ဂလာပါ 🧋
                     </h1>
                         <h2>
