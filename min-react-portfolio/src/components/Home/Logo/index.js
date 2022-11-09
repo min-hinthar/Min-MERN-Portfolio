@@ -1,46 +1,48 @@
 import './index.scss';
 import LogoS from '../../../assets/images/bagan_color.png';
-import { useEffect, useRef } from 'react';
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
-import gsap from 'gsap-trial';
 
+// Disabling SVG plugins due to GreenSock premium pay requirements! :(
+
+// import { useEffect, useRef } from 'react';
+// import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
+// import gsap from 'gsap-trial';
 
 const Logo = () => {
 
-    const bgRef = useRef();
-    const outlineLogoRef = useRef();
-    const solidLogoRef = useRef();
+//     const bgRef = useRef();
+//     const outlineLogoRef = useRef();
+//     const solidLogoRef = useRef();
 
-    useEffect(() => {
-        gsap.registerPlugin(DrawSVGPlugin);
+//     useEffect(() => {
+//         gsap.registerPlugin(DrawSVGPlugin);
 
-        gsap
-        .timeline()
-        .to(bgRef.current, {
-            duration: 10,
-            opacity: 0.9,
-            delay: 8,
-        })
-        .from(outlineLogoRef.current, {
-            drawSVG: 0,
-            duration: 10,
-        })
+//         gsap
+//         .timeline()
+//         .to(bgRef.current, {
+//             duration: 10,
+//             opacity: 0.9,
+//             delay: 8,
+//         })
+//         .from(outlineLogoRef.current, {
+//             drawSVG: 0,
+//             duration: 10,
+//         })
 
-        gsap.fromTo(
-            solidLogoRef.current, {
-                opacity: 0, 
-            }, {
-                opacity: 0.03,
-                duration: 8,
-                delay: 6,
-            }
-        )
+//         gsap.fromTo(
+//             solidLogoRef.current, {
+//                 opacity: 0, 
+//             }, {
+//                 opacity: 0.03,
+//                 duration: 8,
+//                 delay: 6,
+//             }
+//         )
         
-    }, [])
+//     }, [])
 
     return (
-        <div className='logo-container' ref={bgRef}>
-            <img ref={solidLogoRef} className='solid-logo' src={LogoS} alt="Bagan logo png colorized"/>
+        <div className='logo-container'>
+            <img className='solid-logo' src={LogoS} alt="Bagan logo png colorized"/>
             <svg 
                 width="250pt" height="500pt" version="1.0" viewBox="0 0 559 897" xmlns="https://www.w3.org/2000/svg">
 

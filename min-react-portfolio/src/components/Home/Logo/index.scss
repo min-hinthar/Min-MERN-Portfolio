@@ -8,7 +8,7 @@
     bottom: 50%;
     left: auto;
     margin: auto;
-    opacity: 0;
+    transition: all 5s;
 
     svg {
         width: 100%;
@@ -25,7 +25,8 @@
         left: 0;
         margin: auto;
         width: 100%;
-        opacity: 0;
+        opacity: 0.05;
+        animation: fadeOut 6s backwards ease-in;
         transform: scale(1.35) !important;
         z-index: 1;
     }
@@ -34,4 +35,5 @@
 .svg-container {
     stroke: #ffd900;
     stroke-width: 10px;
+    opacity: 1 !important;
 }
