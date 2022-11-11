@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faNode, faCss3Alt, faGitAlt, faHtml5, faJsSquare,  faReact } from '@fortawesome/free-brands-svg-icons';
+import { faNode, faCss3Alt, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import AnimatedLetters from '../AnimatedLetters';
 
 const About = () => {
