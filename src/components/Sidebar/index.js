@@ -31,7 +31,7 @@ const Sidebar = () => (
             </li>
             <li>
                 <a target="_blank" rel='noreferrer' href="https://github.com/min-hinthar">
-                    <FontAwesomeIcon icon={faGithub} color='f5f5f5' />
+                    <FontAwesomeIcon icon={faGithub} color='#171515' />
                 </a>
             </li>
             <li>
