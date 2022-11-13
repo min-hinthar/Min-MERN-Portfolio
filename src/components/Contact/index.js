@@ -24,7 +24,8 @@ const Contact = () => {
                 '3hWsxVpJE46h3KMBY'
             )
             .then((result) => {
-                alert('Thanks! Your message has been successfully sent!');
+                alert('Thanks! Your message has been successfully sent!')
+                window.location.reload(false);
                 console.log(result.text);
             }, (error) => {
                 alert('Sorry! Your message failed to send. Please try again with valid input. Thanks!')
