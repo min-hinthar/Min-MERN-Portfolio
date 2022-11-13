@@ -45,7 +45,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am a <span className='in-text'>divergent/critical thinker</span>, a problem-solver with <span className='in-text'>self-efficacy</span>, with an aptitude for <span className='in-text'>strategic planning</span> and <span className='in-text'>design-thinking</span>, a knack for <span className='in-text'>new business development</span>, utilizing <span className='in-text'>full-stack web development</span> skillsets and innate passion for actionable <span className='in-text'>policy research</span>.
+                        Thank you for visiting my <span className='in-text'>professional portfolio</span> website! Please feel free to reach out to me for more <span className='in-text'>detailed work-experiences</span> related information by filling out the form below. If you are also just starting out with <span className='in-text'>web development</span>, I would also love to be a <span className='in-text'>code buddy</span> if you ever needed a second pair of eyes for reviews or debugging! Afterall, we are all a part of an <span className='in-text'>open-source</span> and <span className='in-text'>open-minded</span> community of coders! Happy<span className='in-text'> Coding</span>!
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
