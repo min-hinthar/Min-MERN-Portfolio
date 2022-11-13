@@ -45,7 +45,16 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        Thank you for visiting my <span className='in-text'>professional portfolio</span> website! Please feel free to reach out to me for more <span className='in-text'>detailed work-experiences</span> related information by filling out the form below. If you are also just starting out with <span className='in-text'>web development</span>, I would also love to be a <span className='in-text'>code buddy</span> if you ever needed a second pair of eyes for reviews or debugging! Afterall, we are all a part of an <span className='in-text'>open-source</span> and <span className='in-text'>open-minded</span> community of coders! Happy<span className='in-text'> Coding</span>!
+                        Thank you for visiting my <span className='in-text'>professional portfolio</span> website!
+                    </p> 
+                    <p> 
+                        Please feel free to reach out to me for more <span className='in-text'>detailed work-experiences</span> related information by filling out the form below. 
+                    </p>
+                    <p>
+                        If you are also just starting out with <span className='in-text'>web development</span>, I would also love to be a <span className='in-text'>code buddy</span> if you ever needed a second pair of eyes for reviews or debugging! Afterall, we are all a part of an <span className='in-text'>open-source</span> and <span className='in-text'>open-minded</span> community of coders! 
+                    </p>
+                    <p>    
+                        Happy<span className='in-text'> Coding</span>!
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
