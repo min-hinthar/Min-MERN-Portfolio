@@ -49,8 +49,8 @@ input [type='email'] {
     
 textarea {
     margin-left: 2%;
-    width: 90%;
-    max-width: 90%;
+    width: 70%;
+    max-width: 70%;
     max-height: 500px;
     border: 0;
     background: #fff;
@@ -82,3 +82,51 @@ textarea {
         box-shadow: rgba(210, 35, 23, 0.646) 1px 20px 30px -10px;
     }
 }
+
+.info-map {
+    position: absolute;
+    background-color: #4f0606d3;
+    top: 2rem;
+    right: 30%;
+    z-index: 999999;
+    width: 200px;
+    padding: 20px;
+    color: ivory;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 3s 1.5s;
+    animation-fill-mode: forwards;
+    border-radius: 1rem;
+    box-shadow: rgba(194, 12, 103, 0.562) 1px 5px 10px 5px;
+    transition: all 3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+    span {
+        font-size: 1.1rem;
+        display: block;
+        padding-top: 20px;
+        color: #ffd700;
+    }
+}
+
+.map-wrap {
+    background: rgb(106, 112, 25, 0.1);
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 5s 1.5s;
+    animation-fill-mode: forwards;
+}
+

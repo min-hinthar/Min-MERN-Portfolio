@@ -2,6 +2,7 @@ import './index.scss'
 import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import AnimatedLetters from '../AnimatedLetters';
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 
 const Contact = () => {
     const [ letterClass, setLetterClass] = useState('text-animate')
@@ -48,10 +49,16 @@ const Contact = () => {
                         Thank you for visiting my <span className='in-text'>professional portfolio</span> website!
                     </p> 
                     <p> 
-                        Please feel free to reach out to me for more <span className='in-text'>detailed work-experiences</span> related information by filling out the form below. 
+                        Please feel free to reach out to me for more <span className='in-text'>detailed work-experiences</span> related information,
+                        <br />
+                        by filling out the form below. 
                     </p>
                     <p>
-                        If you are also just starting out with <span className='in-text'>web development</span>, I would also love to be a <span className='in-text'>code buddy</span> if you ever needed a second pair of eyes for reviews or debugging! Afterall, we are all a part of an <span className='in-text'>open-source</span> and <span className='in-text'>open-minded</span> community of coders! 
+                        If you are also just starting out with <span className='in-text'>web development</span>, I would also love to be a <span className='in-text'>code buddy</span>, 
+                        <br/> 
+                        if you ever needed a second pair of eyes for reviews or debugging!
+                        <br /> 
+                        Afterall, we are all a part of an <span className='in-text'>open-source</span> and <span className='in-text'>open-minded</span> community of coders! 
                     </p>
                     <p>    
                         Happy<span className='in-text'> Coding</span>!
@@ -77,6 +84,26 @@ const Contact = () => {
                             </ul>
                         </form>
                     </div>
+                </div>
+                <div className='info-map'>
+                    Min K. Khant,
+                    <br />
+                    Los Angeles,
+                    <br />
+                    California, 91745
+                    <br />
+                    <span>min@mandalaymorningstar.com</span>
+                </div>
+                <div className='map-wrap'>
+                    <MapContainer center={[33.99399697913149, -117.9591441518504]} zoom={13}>
+                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png">
+                        </TileLayer>
+                        <Marker position={[33.99399697913149, -117.9591441518504]}>
+                            <Popup>
+                                Min lives in this friendly neighborhood! Please feel free to drop by for some fresh brewed Burmese tea! 🍵 
+                            </Popup>
+                        </Marker>
+                    </MapContainer>
                 </div>
             </div>
         </>
