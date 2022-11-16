@@ -1,0 +1,16 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/weatherAPI/weather_min.png",
+            "title": "Weather-Man Min",
+            "description": "Created a weather dashboard designed for weary travelers to plan their trips to cities of their choosing. Uses the Open Weather One Call API to retrieve weather data for cities and Bootstrap Cards for CSS styling.",
+            "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
+        },
+        {
+            "cover": "/portfolio/weatherAPI/weather_min.png",
+            "title": "Weather-Man Min",
+            "description": "Created a weather dashboard designed for weary travelers to plan their trips to cities of their choosing. Uses the Open Weather One Call API to retrieve weather data for cities and Bootstrap Cards for CSS styling.",
+            "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
+        }
+    ]
+}
