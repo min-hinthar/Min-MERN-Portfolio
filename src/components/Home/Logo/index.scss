@@ -28,12 +28,51 @@
         opacity: 0.05;
         animation: fadeOut 6s backwards ease-in;
         transform: scale(1.35) !important;
-        z-index: 1;
+        z-index: 0;
     }
 }
 
 .svg-container {
     stroke: #ffd900;
     stroke-width: 10px;
-    opacity: 1 !important;
+    opacity: 0.8;
+    z-index: 0;
 }
+
+
+@media screen and (max-width: 1200px){
+
+    .tags,
+    .home-page h1::before,
+    .home-page h1::after {
+        display: none;
+    }
+
+    .home-page {
+        .text-zone {
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .flat-button {
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 125px;
+        }
+
+        .logo-container svg {
+           position: relative;
+           width: 100px;
+           height: auto;
+           top: 50px;
+           right: 0;
+           box-sizing: border-box;
+           margin: auto;
+
+        }
+    }
+  }
