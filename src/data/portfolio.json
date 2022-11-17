@@ -3,50 +3,50 @@
         {
             "cover": "/portfolio/weatherAPI/weather_min.png",
             "title": "Weather-Man Min",
-            "description": "HTML5, CSS3, Node.js, API",
+            "description": "HTML5, CSS3, JavaScript ES6, CRUD APIs",
             "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
         },
         {
-            "cover": "/portfolio/weatherAPI/weather_min.png",
-            "title": "Weather-Man Min",
-            "description": "HTML5, CSS3, Node.js, API",
-            "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
+            "cover": "/portfolio/project3/burmaFreedomFund.png",
+            "title": "Burma Freedom Fund App",
+            "description": "MERN Stack, Apollo/GraphQL, Mongoose, JWT",
+            "url": "https://github.com/min-hinthar/project-3-crowdfunding-app" 
         },
         {
-            "cover": "/portfolio/weatherAPI/weather_min.png",
-            "title": "Weather-Man Min",
-            "description": "HTML5, CSS3, Node.js, API",
-            "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
+            "cover": "/portfolio/ECommerce/ECommerce_ORM.gif",
+            "title": "E-Commerce BackEnd ORM",
+            "description": "Sequelize, MySQL2, Dotevn, Express, Node.js",
+            "url": "https://github.com/min-hinthar/E-Commerce-BackEnd-Object-Relational-Mapping" 
         },
         {
-            "cover": "/portfolio/weatherAPI/weather_min.png",
-            "title": "Weather-Man Min",
-            "description": "HTML5, CSS3, Node.js, API",
-            "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
+            "cover": "/portfolio/BookSearchEngine/MERN_BookSearch.jpg",
+            "title": "GoogleBooks Search-Engine",
+            "description": "MERN Stack, Apollo/GraphQl, GoogleAPI ",
+            "url": "https://github.com/min-hinthar/MERN-GoogleBooksAPI-Search-Engine" 
         },
         {
-            "cover": "/portfolio/weatherAPI/weather_min.png",
-            "title": "Weather-Man Min",
-            "description": "HTML5, CSS3, Node.js, API",
-            "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
+            "cover": "/portfolio/JATE/Jate_Offline.jpg",
+            "title": "Text-Editor Progressive-Web-App",
+            "description": "Babel, Service Worker, Cache Static, Manifest",
+            "url": "https://github.com/min-hinthar/Text-Editor-PWA-Heroku" 
         },
         {
-            "cover": "/portfolio/weatherAPI/weather_min.png",
-            "title": "Weather-Man Min",
-            "description": "HTML5, CSS3, Node.js, API",
-            "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
+            "cover": "/portfolio/NoSQL_SocialMedia/NoSQL_SocialMedia.gif",
+            "title": "NoSQL Social Network API",
+            "description": "MySQL, Node.js, CRUD APIs, Insomnia",
+            "url": "https://github.com/min-hinthar/nosql-social-network-api" 
         },
         {
-            "cover": "/portfolio/weatherAPI/weather_min.png",
-            "title": "Weather-Man Min",
-            "description": "HTML5, CSS3, Node.js, API",
-            "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
+            "cover": "/portfolio/Coin4U/Coin4U.jpg",
+            "title": "Coin4U Web-APIs",
+            "description": "JQuery, Bulma, CoinMarket API, JS, HTML5, CSS3",
+            "url": "https://github.com/seheon013/Coin4U" 
         },
         {
-            "cover": "/portfolio/weatherAPI/weather_min.png",
-            "title": "Weather-Man Min",
-            "description": "HTML5, CSS3, Node.js, API",
-            "url": "https://min-hinthar.github.io/Weather-Man-Min/" 
+            "cover": "/portfolio/TeamProfile_Generator/TeamProfile_Generator.gif",
+            "title": "Team-Profile Generator",
+            "description": "Node.js, Inquirer, Jest, Command-Line App",
+            "url": "https://github.com/min-hinthar/team-profile-generator" 
         }
     ]
 }

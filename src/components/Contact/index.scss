@@ -74,7 +74,7 @@ textarea {
     border: 1px solid #ffd700;
     float: left;
     border-radius: 1rem;
-    transition: all 2s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
     &:hover {
         background: #850411cd;
@@ -96,11 +96,11 @@ textarea {
     font-size: 1.1rem;
     font-weight: 300;
     opacity: 0;
-    animation: fadeIn 3s 1.5s;
+    animation: fadeIn 2s 2s;
     animation-fill-mode: forwards;
     border-radius: 1rem;
     box-shadow: rgba(194, 12, 103, 0.562) 1px 5px 10px 5px;
-    transition: all 3s ease-in-out;
+    transition: all 1s ease-in-out;
 
     &:hover {
         transform: scale(1.2);
@@ -126,7 +126,7 @@ textarea {
     height: 100%;
     position: relative;
     opacity: 0;
-    animation: backInRight 5s 1.5s;
+    animation: backInRight 2s 2s;
     animation-fill-mode: forwards;
 }
 
