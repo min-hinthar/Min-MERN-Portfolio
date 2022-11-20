@@ -10,17 +10,6 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
-        // Responsive for mobile viewport
-        @media only screen and (
-            max-width: 900px) 
-            {
-                transform: translateY(-50%);
-                top: 50%;
-                left: 20%;
-                container-type: inline-size;
-                max-height: max-content;
-                max-width: 556px;
-            }
     }
 
     // Mingalar-Par in Burmese 
@@ -155,24 +144,13 @@
             transform: none;
             padding: 10px;
             box-sizing: border-box;
-        }
-
-        .flat-button {
-            float: none;
-            display: block;
-            margin: 20px auto 0 auto;
-            width: 125px;
-        }
-
-        .logo-container svg {
-           position: relative;
-           width: 100px;
-           height: auto;
-           top: 50px;
-           right: 0;
-           box-sizing: border-box;
-           margin: auto;
-
+            
+            .flat-button {
+                float: none;
+                display: block;
+                margin: 20px auto 0 auto;
+                width: 125px;
+            }
         }
     }
   }
