@@ -10,17 +10,6 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
-        // Responsive for mobile viewport
-        @media only screen and (
-            max-width: 900px) 
-            {
-                transform: translateY(-50%);
-                top: 50%;
-                left: 20%;
-                container-type: inline-size;
-                max-height: max-content;
-                max-width: 556px;
-            }
     }
 
     // Mingalar-Par in Burmese 
@@ -29,7 +18,7 @@
         font-size: 4rem;
         margin: 0;
         font-weight: 500;
-        animation: rotateIn 5s 1s linear both;
+        animation: bounceIn 3s 1s linear both;
         animation-delay: 0s;
 
         &::before {
@@ -41,8 +30,8 @@
             margin-top: -30px;
             left: 15px;
             opacity: 0.8;
-            animation-delay: 5s;
-            animation: fadeIn 3s 5s backwards;
+            animation-delay: 2s;
+            animation: fadeIn 3s 2s backwards;
         }
 
         &::after {
@@ -54,8 +43,8 @@
             margin-top: 18px;
             margin-left: 20px;
             opacity: 0.8;
-            animation-delay: 5s;
-            animation: fadeIn 3s 6s backwards;
+            animation-delay: 1s;
+            animation: fadeIn 3s 3s backwards;
         }
     }
 
@@ -67,7 +56,7 @@
         padding: 1px 10px;
         text-decoration: none;
         color: rgb(155, 197, 17);
-        animation-delay: 4s;
+        animation-delay: 3s;
     }
 
 
@@ -83,17 +72,17 @@
         font-weight: 600;
         font-family: 'Courier New', Courier, monospace;
         letter-spacing: 0.5px;
-        animation: fadeIn 6s 7s backwards;
+        animation: fadeIn 5s 4s backwards;
         border: 1px #ffd700;
         border-style: dashed;
         border-radius: 1rem;
         padding: 1rem;
-        transition: 3.5s;
+        transition: 1.5s;
 
         &:hover {
             background: #850411cd;
             transform: scale(1.35);
-            transition: all 4s ease-in-out;
+            transition: all 2s ease-in-out;
             box-shadow: rgba(139, 25, 171, 0.635) 5px 5px, rgba(152, 21, 104, 0.425) 10px 10px, rgba(240, 46, 169, 0.338) 15px 15px, rgba(11, 112, 92, 0.1) 20px 20px, rgba(11, 128, 105, 0.151) 25px 25px;
         }
     }
@@ -102,13 +91,13 @@
         padding: 2rem;
         max-width: 100%;
         height: auto;
-        animation: fadeIn 7s 9s backwards;
-        transition: 3.5s;
+        animation: fadeIn 4s 5s backwards;
+        transition: 1.5s;
 
         &:hover {
             background: #850411ad;
             transform: scale(1.4);
-            transition: all 4s ease-in-out;
+            transition: all 2s ease-in-out;
             box-shadow: rgba(6, 227, 183, 0.628) 0px 8px 24px;
         }
     }
@@ -125,9 +114,9 @@
         border-radius: 1rem;
         margin-top: 20px;
         float: left;
-        animation: fadeIn 5s 11s backwards;
+        animation: fadeIn 3s 5s backwards;
         white-space: nowrap;
-        transition: 3s;
+        transition: 1s;
 
         &:hover {
             background: #ffd700;
@@ -139,3 +128,29 @@
 
     }
 }
+
+@media screen and (max-width: 1200px){
+
+    .tags,
+    .home-page h1::before,
+    .home-page h1::after {
+        display: none;
+    }
+
+    .home-page {
+        .text-zone {
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+            
+            .flat-button {
+                float: none;
+                display: block;
+                margin: 20px auto 0 auto;
+                width: 125px;
+            }
+        }
+    }
+  }

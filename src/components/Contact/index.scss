@@ -1,0 +1,145 @@
+.contact-page {
+    background: linear-gradient(217deg, #056961d3, rgba(255, 0, 0, 0) 35%),
+    linear-gradient(127deg, #4f0606, rgba(0,255,0,0) 0%),
+    linear-gradient(336deg, #7b054ebd, rgba(0,0,255,0) 50%);
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+        ul {
+            padding: 0;
+            margin: 0;
+
+            li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: visible;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+            }
+
+            li.half {
+                width: 50%;
+                margin-left: 2%;
+                float: left;
+                clear: none;
+            }
+        }
+    }
+    
+input [type='text'],
+input [type='email'] {
+    width: 100%;
+    border: 0;
+    height: 50px;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+    
+textarea {
+    margin-left: 2%;
+    width: 70%;
+    max-width: 70%;
+    max-height: 500px;
+    border: 0;
+    background: #fff;
+    height: 50px;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    min-height: 150px;
+}
+
+.flat-button {
+    color: #ffd700;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ffd700;
+    float: left;
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        background: #850411cd;
+        transform: scale(1.1);
+        box-shadow: rgba(210, 35, 23, 0.646) 1px 20px 30px -10px;
+    }
+}
+
+.info-map {
+    position: absolute;
+    background-color: #4f0606d3;
+    top: 2rem;
+    right: 30%;
+    z-index: 999999;
+    width: 200px;
+    padding: 20px;
+    color: ivory;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 2s 2s;
+    animation-fill-mode: forwards;
+    border-radius: 1rem;
+    box-shadow: rgba(194, 12, 103, 0.562) 1px 5px 10px 5px;
+    transition: all 1s ease-in-out;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+    span {
+        font-size: 1.1rem;
+        display: block;
+        padding-top: 20px;
+        color: #ffd700;
+    }
+}
+
+.map-wrap {
+    background: rgb(106, 112, 25, 0.1);
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 2s 2s;
+    animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 1200px){
+    .map-wrap {
+        float: none;
+        width: 100%;
+        height: 400px;
+        margin: 0;
+    }
+
+    .info-map {
+        display: none;
+        
+    }
+  }

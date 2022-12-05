@@ -28,12 +28,26 @@
         opacity: 0.05;
         animation: fadeOut 6s backwards ease-in;
         transform: scale(1.35) !important;
-        z-index: 1;
+        z-index: 0;
     }
 }
 
 .svg-container {
     stroke: #ffd900;
     stroke-width: 10px;
-    opacity: 1 !important;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+
+@media screen and (max-width: 1200px){
+    .logo-container { 
+        svg {
+       position: relative;
+       box-sizing: border-box;
+       margin: auto;
+        z-index: 0;
+        opacity: 0.5;
+        }
+    }
 }

@@ -1,9 +1,9 @@
-import LogoPic from '../../assets/images/Sule.png';
 import './index.scss';
 import { Link } from 'react-router-dom';
+import { React, useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import { useEffect, useState } from 'react';
-import Logo from '../Home/Logo/index'
+import Logo from './Logo/index';
+import LogoPic from '../../assets/images/Sule.png';
 
 
 const Home = () => {
