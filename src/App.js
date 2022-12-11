@@ -12,12 +12,11 @@ class App extends Component {
     return (
         <>
           <Routes>
-              <Route exact path="/" element={<Layout /> }>
-                <Route index element={<Home />} />
-                  <Route path="about" element={<About />} />
-                  <Route path="contact" element={<Contact />} />
-                  <Route path="portfolio" element={<Portfolio />} />
-              </Route>
+              <Route exact path="/*" element={<><Home /> <Layout /></>} />
+                <Route index element={<><Home /> <Layout /></>} />
+                  <Route path="about" element={<><About /> <Layout /></>} />
+                  <Route path="contact" element={<><Contact /> <Layout /></>} />
+                  <Route path="portfolio" element={<><Portfolio /> <Layout /></>} />
           </Routes>
         </>
     );
